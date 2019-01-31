@@ -23,6 +23,7 @@ const Circle = styled.div`
   margin-right: 1em;
   position: relative;
   will-change: tranform;
+  transition: transform 0.1s ease;
   opacity: .9;
 
   &:last-child {
