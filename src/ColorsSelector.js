@@ -79,7 +79,7 @@ const Wrapper = styled.div`
 
 const Color = ({ color, name, active, onClick }) => (
   <Circle color={color} onClick={() => onClick(name)} active={active}>
-    <img src={images[name]} />
+    <img src={images[name]} alt={`${name} mana logo`} />
   </Circle>
 );
 
